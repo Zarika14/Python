@@ -34,8 +34,8 @@ class Laptop:
 l1 = Laptop("HP","pavilion gaming", 70000)        
 
 l2 = Laptop("asus","asus tuf",54000)
-
+l2.dicount_percent = 50
 print(l2.discount())
-print(l1.__dict__)
+print(l2.__dict__)
 
     
