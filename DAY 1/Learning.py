@@ -95,7 +95,9 @@ class Laptop:
         self.model_name = model_name
         self.price = price
         
-l1 = Laptop("HP","pavilion gaming")        
+l1 = Laptop("HP","pavilion gaming", 70000)        
 
-# githubdesk
+l2 = Laptop("asus","asus tuf",54000)
+
+print(f"price of Hp laptop is {l1.price} and price of asus laptop is {l2.price}")
     
